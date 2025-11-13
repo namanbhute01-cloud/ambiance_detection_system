@@ -1,0 +1,13 @@
+# Project requirements for ambiance_detection_system
+# Install with: pip install -r requirements.txt
+
+opencv-python>=4.7.0
+numpy>=1.24.0
+yt-dlp>=2023.12.1
+python-vlc>=3.0.0
+ytmusicapi>=0.19.0
+
+# Notes:
+# - The script uses GUI windows, so `opencv-python` (not headless) is required.
+# - `python-vlc` is a Python wrapper for libVLC; you must also install VLC on your system.
+# - This list includes the main third-party libraries referenced in `ambi.py`.
